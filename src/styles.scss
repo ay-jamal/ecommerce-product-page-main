@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #68707d;
+  &:hover {
+    color: black;
+  }
+}
+
+li,
+a {
+  cursor: pointer;
+}

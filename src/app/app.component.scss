@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  max-width: 1200px;
+  margin-top: 113px;
+
+  .col-section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  section {
+    padding-block: 1rem;
+    width: 35%;
+    // max-width: 40%;
+  }
+  .nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1020px) {
+  section {
+    width: 45%;
+  }
+}
+
+@media (min-width: 920px) {
+  section {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+  .col-section {
+    width: 100%;
+    flex-direction: column;
+  }
+  section {
+    width: 100% !important;
+  }
+}

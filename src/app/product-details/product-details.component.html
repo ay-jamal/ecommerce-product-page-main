@@ -1,0 +1,22 @@
+<div class="product-container">
+  <div class="text">
+    <span class="heading">SNEAKER COMPANY</span>
+    <h1>Fall Limited Edtion Sneakers</h1>
+
+    <p class="sumry">
+      These low-profile sneakers are your perfect casual wear companion.
+      Featuring a durable rubber outer sole, they’ll withstand everything the
+      weather can offer.
+    </p>
+    <p class="price">$125.00 <span class="off"> 50%</span></p>
+    <span class="old-price">$250.00</span>
+  </div>
+  <div class="add-to-cart">
+    <div class="left">
+      <img (click)="decNum()" src="../../assets/images/icon-minus.svg" alt="" />
+      <span class="num">{{ num }}</span>
+      <img (click)="incNum()" src="../../assets/images/icon-plus.svg" alt="" />
+    </div>
+    <button [disabled]="num == 0" (click)="isClecked()">Add to cart</button>
+  </div>
+</div>
